@@ -105,6 +105,8 @@ _Implementation Notes_
 
 * When `_revinclude` is provided in a request to the closed endpoint, the OAuth2 token must include the scope corresponding to the Authorization Type, such as `user/Provenance.read`, `patient/Provenance.read` or `system/Provenance.read`.
 
+* DiagnosticReports of the General Laboratory, MicroBiology, and Cardiology types populate the `DiagnosticReport.result`.
+
 The common [errors] and [OperationOutcomes] may be returned.
 
 ### Headers
